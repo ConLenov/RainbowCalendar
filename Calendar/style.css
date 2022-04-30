@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.look-calendar {
+    width: 396px;
+	height: 396px;
+    background-color: #000000;
+    margin: 0 auto;
+  }
+  #calendar {
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 18px;
+    text-align: center;
+    border-spacing:3px;
+    color: #000;
+	font-family: 'Open Sans', sans-serif;
+  }
+  #calendar tr.dn td {
+    color: #24aa72;
+    font-weight: 700;
+  }
+  #calendar thead tr:last-child {
+    font-size: small;
+    color: #ffffff;
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(1):hover,
+  #calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+  }
+  #calendar tbody td {
+    color: #8523be;
+  }
+  
+   #calendar tbody td:nth-child(n+1){
+    color: #be0201;
+  }
+  
+   #calendar tbody td:nth-child(n+2){
+    color: #ee6d25;
+  }
+  
+   #calendar tbody td:nth-child(n+3){
+    color: #fac921;
+  }
+  
+  #calendar tbody td:nth-child(n+4){
+    color: #15b746;
+  }
+  
+  #calendar tbody td:nth-child(n+5){
+    color: #34b3de;
+  }
+  
+  #calendar tbody td:nth-child(n+6){
+    color: #366d9b;
+  }
+  
+  #calendar tbody td:nth-child(n+7){
+    color: #8436aa;
+  }
+  
+  #calendar tbody td.today {
+    background: #dc0070;
+    color: #fff;
+  }
+  
+  #calendar td {
+  padding: 15px;
+}
